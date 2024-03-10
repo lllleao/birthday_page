@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Aniversário</title>
+</head>
+
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="images/cake.png" alt="">
+            <h1 class="hero__text">Faltam <span id="contador"></span> para o meu aniversário</h1>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        Não haverá comemoração, pois não ligo muito para a data. Mande seu presente!
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Mandar presente
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="event">
+            <div class="event__present-title">
+                <h3>Tipos de presentes que gosto</h3>
+            </div>
+            <div class="container" data-aos="fade-right">
+                <div class="event__details">
+                    <h2 class="event__details__title">Quadrinhos</h2>
+                    <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nostrum, quae! Incidunt fuga cum suscipit dolor eligendi dolore quae omnis recusandae magni
+                        ipsam ullam error est ad, harum cupiditate quas nisi!</p>
+                </div>
+                <img class="event__image" src="./images/hqs.jpg" alt="HQ's">
+            </div>
+        </section>
+        <section class="event event--left-image">
+            <div class="container" data-aos="fade-left">
+                <div class="event__details">
+                    <h2 class="event__details__title">Periféricos</h2>
+                    <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nostrum, quae! Incidunt fuga cum suscipit dolor eligendi dolore quae omnis recusandae magni
+                        ipsam ullam error est ad, harum cupiditate quas nisi!</p>
+                </div>
+                <img class="event__image" src="./images/periferico.jpg" alt="Periféricos">
+            </div>
+        </section>
+        <section class="event">
+            <div class="container" data-aos="fade-right">
+                <div class="event__details">
+                    <h2 class="event__details__title">Roupas</h2>
+                    <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nostrum, quae! Incidunt fuga cum suscipit dolor eligendi dolore quae omnis recusandae magni
+                        ipsam ullam error est ad, harum cupiditate quas nisi!</p>
+                </div>
+                <img class="event__image" src="./images/roupas.png" alt="Roupas">
+            </div>
+        </section>
+        <section class="event event--left-image">
+            <div class="container" data-aos="fade-left">
+                <div class="event__details">
+                    <h2 class="event__details__title">Livros</h2>
+                    <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nostrum, quae! Incidunt fuga cum suscipit dolor eligendi dolore quae omnis recusandae magni
+                        ipsam ullam error est ad, harum cupiditate quas nisi!</p>
+                </div>
+                <img class="event__image" src="./images/livros.webp" alt="Livros">
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
